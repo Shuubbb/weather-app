@@ -21,7 +21,7 @@ ccs for .search button img : width 16px
 
 then create new div class named "weather" in which img tag class named "weather-icon then src rain.png then need to display temperature using h1 tag class named "temp" write 22 degree c in that h1 tag. then h2 tag class named "city" write New York name in it. then again new div class named "details". 
 In detail class we need two clomun so again div in it class named "col". In this col class, we adding imag tag with src humidity.png and again a div for p tag class named "humidity" and written 50% in it and again p tag Humidity written in it. Then we need to copy this whole div class named col and update image name as wind.png and class wind with written 15 km/h and again wind Speed in p tag.
--------------------------------
+
 css for .weather-icon where width is 170px and margin-top 30px then css for .weather h1 with font-size 80px and font-weight is 500 then same goes to .weather h2 with font-size 45px, font-weight is 400, margin0top is -10px
 
 css for details where display is flex, align-item is center, justify-content is space-between, padding is 0 20px, margin-top 50px
@@ -74,7 +74,7 @@ when you click on search button our clickWeather fuction must me exceuted. for t
 and we need eventListner here so, searchBtn.addEventListener("click", ()=> {}) and in this arrow function put the checkWeather() function. so in parameter we need to add value that is searchBox.value.
 
 Now, we need to change images according to weather condtion clear,clouds,dizzle,mist,rain(already created),snow
------------------------
+
 just in our async function , write in it if statment that weather is equal == to "Clouds" then weatherIcon.src is equal to source file clouds, also import that weather-icon img tag in it and name as const weatherIcon. same make else statment write for all Clear,Rain,Drizzle,Mist.
 
 in data, for weather there are 2 index choose zero for that weather[0]
